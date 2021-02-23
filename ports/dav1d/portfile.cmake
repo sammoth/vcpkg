@@ -1,4 +1,4 @@
-vcpkg_fail_port_install(ON_ARCH "arm" "x86" ON_TARGET "uwp")
+vcpkg_fail_port_install(ON_ARCH "arm" ON_TARGET "uwp")
 
 vcpkg_from_gitlab(
     GITLAB_URL https://code.videolan.org
